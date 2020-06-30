@@ -1,0 +1,90 @@
+body {
+  background: #f4f1de;
+  color: #1e202d;
+  font-family: Sriracha, cursive;
+}
+
+.container {
+  display: block;
+  width: 400px;
+  margin: 100px auto 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li * {
+  float: left;
+}
+
+li {
+    overflow: hidden;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+
+li, h3 {
+  clear:both;
+  list-style:none;
+}
+
+input, button {
+  outline: none;
+}
+
+input[type=button] {
+  background: none;
+  border: 0px;
+  color: #a07e6c;
+  font-size: 16px;
+  width: 60px;
+  margin: 5px 0 5 px;
+  font-family: Sriracha, cursive;
+  cursor: pointer;
+ }
+
+input[type=button]:hover {
+  color: #28180f;
+}
+
+li > input[type="checkbox"] {
+  margin: 0 10px;
+  position: relative;
+  top: 10px;
+}
+
+input[type="text"] {
+  margin: 0;
+  font-size: 16px;
+  line-height: 17px;
+  height: auto;
+  padding: 8px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 5px;
+  font-family: Sriracha, cursive;
+  color: #1e202d;
+}
+
+input[type="text"]:focus {
+
+    outline: none;
+    box-shadow: 0px 0px 5px #fa9661;
+    border:1px solid #c8784d;
+}
+
+.left-mrg {
+	margin-left: 8px;
+}
+
+.bottomLine {
+	border-bottom: 3px solid #333;
+}
+
+#completedList input[type=text] {
+	text-decoration: line-through;
+}
+
+
